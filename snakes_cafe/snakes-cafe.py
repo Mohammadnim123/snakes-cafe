@@ -60,7 +60,7 @@ while i:
 
 
 
-    elif yourOrder == 'quit':
+    elif yourOrder == 'Quit':
         break
 
 
