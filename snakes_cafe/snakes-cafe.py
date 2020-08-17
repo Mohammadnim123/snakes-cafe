@@ -49,7 +49,7 @@ while i:
         print('')
         print('If you have anothr order type it or type quit to exit ???')
     
-    yourOrder = input()
+    yourOrder = str(input()).capitalize()
 
     if yourOrder in ourMenu:
         ordersList.append(yourOrder)
